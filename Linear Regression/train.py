@@ -49,4 +49,3 @@ m2=plt.scatter(X_test,y_test,color=cmap(0.5),s=10)
 # Plot the regression line calculated by the model and display the final plot.
 plt.plot(X,y_pred_line,color='black', linewidth=2, label='Prediction')
 plt.show()
-
